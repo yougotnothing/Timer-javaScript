@@ -10,10 +10,10 @@ body {
 }
 
 .themes {
-    display: inline-block;
+    display: block;
     padding: 10px 20px;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 16px;
+    font-size: 18px;
     background: var(--back-color);
     border: none;
     cursor: pointer;
@@ -30,10 +30,10 @@ body {
 .timer {
     font-size: 200px;
     width: 1500px;
-    height: 200px;
+    height: 230px;
     display: inline-block;
     margin: 40px 50px;
-    padding: 30px 40px;
+    padding: 40px 50px;
 }
 
 .startButton {
@@ -50,7 +50,7 @@ body {
     text-align: center;
     letter-spacing: 3px;
     font-weight: 600;
-    color: var(--font-color);
+    color: var(--btn-fcolor);
     background: var(--button-color);
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
@@ -76,7 +76,7 @@ body {
     text-align: center;
     letter-spacing: 3px;
     font-weight: 600;
-    color: var(--font-color);
+    color: var(--btn-fcolor);
     background: var(--button-color);
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
@@ -102,7 +102,7 @@ body {
     text-align: center;
     letter-spacing: 3px;
     font-weight: 600;
-    color: var(--font-color);
+    color: var(--btn-fcolor);
     background: var(--button-color);
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
@@ -122,6 +122,11 @@ body {
         margin: 20px;
         padding: 20px;
     }
+    .themes {
+        display: block;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
 }
 
 @media (max-width: 1240px) and (min-width: 861px) {
@@ -131,6 +136,11 @@ body {
         height: 85px;
         margin: 15px;
         padding: 15px;
+    }
+    .themes {
+        display: block;
+        font-size: 14px;
+        padding: 8px 18px;
     }
 }
 
@@ -142,6 +152,11 @@ body {
         margin: 10px;
         padding: 10px;
     }
+    .themes {
+        display: block;
+        font-size: 13px;
+        padding: 5px 15px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -152,4 +167,9 @@ body {
         margin: 5px;
         padding: 5px;
     }
+    .themes {
+        display: block;
+        font-size: 12px;
+        padding: 5px 10px;
+    }   
 }
