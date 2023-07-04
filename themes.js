@@ -25,11 +25,13 @@ const themeContainer = {
         "--back-color": "#2F4538",
         "--font-color": "#6DAE81",
         "--button-color": "#999950",
+        "--button-fontColor": "#A7FC00"
     },
     "violet": {
         "--back-color": "#46394B",
         "--font-color": "#B565A7",
-        "--button-color": "#C8A2C8",       
+        "--button-color": "#C8A2C8",
+        "--button-fontColor": ""        
     }
 }
 
