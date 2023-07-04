@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    text-align: center;
+    color: var(--font-color);
+    font-size: 100px;
+    background-color: var(--back-color);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.themes {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    background: var(--back-color);
+    border: none;
+    cursor: pointer;
+    color: var(--font-color);
+}
+
+.buttons {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+.timer {
+    font-size: 200px;
+    width: 1500px;
+    height: 200px;
+    display: inline-block;
+    margin: 40px 50px;
+    padding: 30px 40px;
+}
+
+.startButton {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--font-color);
+    background: var(--button-color);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+.startButton:hover {
+    background: #43e52e;
+    box-shadow: 0 15px 20px rgba(46, 229, 49, 0.4);
+    color: rgb(72, 72, 72);
+    transform: translateY(-7px);
+}
+
+.pauseButton {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--font-color);
+    background: var(--button-color);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+.pauseButton:hover {
+    background: #e52e2e;
+    box-shadow: 0 15px 20px rgba(229, 46, 46, 0.4);
+    color: rgb(72, 72, 72);
+    transform: translateY(-7px);
+}
+
+.resetButton {
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    font-family: 'Rubik', sans-serif;;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--font-color);
+    background: var(--button-color);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+.resetButton:hover {
+    background: #2e90e5;
+    box-shadow: 0 15px 20px rgba(46, 116, 229, 0.4);
+    color: rgb(72, 72, 72);
+    transform: translateY(-7px);
+}
+
+@media (max-width: 1480px) and (min-width: 1241px) {
+    .timer {
+        font-size: 85px;
+        width: 840px;
+        height: 120px;
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1240px) and (min-width: 861px) {
+    .timer {
+        font-size: 80px;
+        width: 640px;
+        height: 85px;
+        margin: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 860px) and (min-width: 481px) {
+    .timer {
+        font-size: 75px;
+        width: 480px;
+        height: 75px;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .timer {
+        font-size: 65px;
+        width: 320px;
+        height: 60px;
+        margin: 5px;
+        padding: 5px;
+    }
+}

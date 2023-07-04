@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <select id="themes" class="themes">
+        <div class="themeList">
+            <option id="darkTheme" class="darkTheme" onclick="applyTheme('dark')">Dark</option>
+            <option id="lightTheme" class="lightTheme" onclick="applyTheme('light')">Light</option>
+            <option id="blueTheme" class="blueTheme" onclick="applyTheme('blue')">Blue</option>
+            <option id="greenTheme" class="greenTheme" onclick="applyTheme('green')">Green</option>
+            <option id="violetTheme" class="violetTheme" onclick="applyTheme('violet')">Violet</option>
+        </div>
+    </select>
+    <div id="time" class="timer">00:00</div>
+    <div class="buttons">
+        <button id="startButton" class="startButton" onclick="timerStart()">start</button>
+        <button id="resetButton" class="resetButton" onclick="timerReset()">reset</button>
+        <button id="pauseButton" class="pauseButton" onclick="timerStop()">stop</button>
+    </div>
+    <script src="mainTimer.js"></script>
+    <script src="themes.js"></script>
+</body>
+</html>
