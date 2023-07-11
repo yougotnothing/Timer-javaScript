@@ -8,10 +8,14 @@
 ---
 ## HOW TO RUN APPLICATION?
 
-### To run application you should open 
+### At first, open VS Code:
+### Install plugin 
 ~~~
-index.html
+Live Server
 ~~~
+### Start Live Server:
+### To start it you can find a Live Server icon in status bar,
+### click on it.
 ---
 ### And finally you can taste it,
 
