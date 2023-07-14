@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/clock@3x.png" type="image/x-icon">
     <link rel="stylesheet" href="/styles/style.css">
-    <title>Document</title>
+    <title>Timer with JS</title>
 </head>
 <body>
     <select id="themes" class="themes" onchange="applyTheme(this.value)">
@@ -15,11 +16,11 @@
         <option id="greenTheme" class="greenTheme" onclick="applyTheme('green')">Green</option>
         <option id="violetTheme" class="violetTheme" onclick="applyTheme('violet')">Violet</option>
     </select>
-    <div id="time" class="timer">00:00</div>
+    <div id="time" class="timer">00:00.00</div>
     <div class="buttons">
-        <button id="startButton" class="startButton" onclick="timerStart()">start</button>
-        <button id="resetButton" class="resetButton" onclick="timerReset()">reset</button>
-        <button id="pauseButton" class="pauseButton" onclick="timerStop()">stop</button>
+        <button id="startButton" class="startButton">start</button>
+        <button id="resetButton" class="resetButton">reset</button>
+        <button id="pauseButton" class="pauseButton">stop</button>
     </div>
     <script src="/js/mainTimer.js"></script>
     <script src="/js/themes.js"></script>

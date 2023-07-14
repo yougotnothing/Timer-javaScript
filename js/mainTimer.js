@@ -18,9 +18,10 @@ function timerUpdate() {
     pad(minutes) + ":" +
     pad(seconds) + "." +
     pad(millisecods);
-
+    
     timer.textContent = timeStr;
 };
+
 
 function timerStart() {
     startTime = Date.now() - elapsedtime;
@@ -32,7 +33,7 @@ function timerStart() {
 function timerStop() {
     clearInterval(timerInterval);
     elapsedtime = Date.now() - startTime;
-    currentTime = timerInterval;
+    currentTime = elapsedtime;
     startButton.disabled = false;
     pauseButton.disabled = true;
 };
@@ -50,6 +51,12 @@ function pad(value) {
     return value.toString().padStart(2, "0");
 };
 
-startButton.addEventListener("click", timerStart());
-pauseButton.addEventListener("click", timerStop());
-resetButton.addEventListener("click", timerReset());
+document.addEventListener('keyup', function(event) {
+    if (event.code === 'Space' && event.target.id === 'startButton') {
+        timerStart();
+    }
+});
+
+startButton.addEventListener('click', timerStart);
+resetButton.addEventListener('click', timerReset);
+pauseButton.addEventListener('click', timerStop);
