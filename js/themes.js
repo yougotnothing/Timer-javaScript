@@ -41,10 +41,10 @@ async function applyTheme(name) {
    changeElement.style.setProperty(key, chosenTheme[key]);
   }
 
-  localStorage.setItem('saveTheme', name);
+  sessionStorage.setItem('saveTheme', name);
 }
 
-const savedTheme = localStorage.getItem('saveTheme');
+const savedTheme = sessionStorage.getItem('saveTheme');
 
 if(savedTheme) {
   applyTheme(savedTheme);
