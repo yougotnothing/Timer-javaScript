@@ -8,7 +8,10 @@
 ---
 # HOW TO RUN APPLICATION?
 
-## 1. open VS Code:
+## 1. open site with this link:
+## https://timerjavascript.netlify.app/
+---
+## 2. open VS Code:
 ### Install plugin 
 ~~~
 Live Server
@@ -16,10 +19,7 @@ Live Server
 ### Start Live Server:
 ### To start it you can find a Live Server icon in status bar,
 ### click on it.
----
-## 2. open site with this link:
-## https://timerjavascript.netlify.app/
----
 ### And finally you can taste it,
+---
 
 # enjoy!
