@@ -52,7 +52,7 @@ if(savedTheme) {
   applyTheme('dark');
 }
 
-selectElement.addEventListener('change', function() {
+selectElement.addEventListener('input', function() {
   const selectedTheme = this.value;
   applyTheme(selectedTheme);
 })
