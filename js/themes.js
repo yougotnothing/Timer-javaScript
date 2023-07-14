@@ -33,7 +33,7 @@ const themeContainer = {
   }
 };
 
-function applyTheme(name) {
+async function applyTheme(name) {
   const chosenTheme = themeContainer[name];
   const changeElement = document.documentElement;
 
