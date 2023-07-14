@@ -54,6 +54,7 @@ body {
     background: var(--button-color);
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
+    cursor: pointer;
 }
 .startButton:hover {
     background: #43e52e;
@@ -80,6 +81,7 @@ body {
     background: var(--button-color);
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
+    cursor: pointer;
 }
 .pauseButton:hover {
     background: #e52e2e;
@@ -106,6 +108,7 @@ body {
     background: var(--button-color);
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
+    cursor: pointer;
 }
 .resetButton:hover {
     background: #2e90e5;
