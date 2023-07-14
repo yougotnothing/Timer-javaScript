@@ -3,7 +3,7 @@
 
 body {
     text-align: center;
-    color: var(--font-color);
+    color: #fff;
     font-size: 100px;
     background-color: var(--back-color);
     font-family: 'JetBrains Mono', monospace;
