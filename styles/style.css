@@ -97,18 +97,21 @@ body {
     background: #43e52e;
     box-shadow: 0 15px 20px rgba(46, 229, 49, 0.4);
     color: rgb(72, 72, 72);
+    text-align: center;
     transform: translateY(-7px);
 }
 .pauseButton:hover {
     background: #e52e2e;
     box-shadow: 0 15px 20px rgba(229, 46, 46, 0.4);
     color: rgb(72, 72, 72);
+    text-align: center;
     transform: translateY(-7px);
 }
 .resetButton:hover {
     background: #2e90e5;
     box-shadow: 0 15px 20px rgba(46, 116, 229, 0.4);
     color: rgb(72, 72, 72);
+    text-align: center;
     transform: translateY(-7px);
 }
 
