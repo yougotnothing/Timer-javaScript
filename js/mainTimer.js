@@ -52,7 +52,7 @@ function pad(value) {
 };
 
 document.addEventListener('keyup', function(event) {
-    if (event.code === 'Space' && event.target.id === 'startButton') {
+    if (event.code === 'Space') {
         timerStart();
     }
 });

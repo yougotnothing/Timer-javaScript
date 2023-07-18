@@ -33,7 +33,7 @@ const themeContainer = {
   }
 };
 
-async function applyTheme(name) {
+function applyTheme(name) {
   const chosenTheme = themeContainer[name];
   const changeElement = document.documentElement;
 
@@ -52,7 +52,7 @@ if(savedTheme) {
   applyTheme('dark');
 }
 
-selectElement.addEventListener('input', function() {
+selectElement.addEventListener('change', function() {
   const selectedTheme = this.value;
   applyTheme(selectedTheme);
 })
