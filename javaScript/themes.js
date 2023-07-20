@@ -2,10 +2,10 @@ const selectElement = document.getElementById('themes');
 
 const themeContainer = {
   "light": {
-    "--back-color": "#FFFAFA",
-    "--font-color": "#1E1E1E",
-    "--button-color": "#B5B8B1",
-    "--btn-fcolor": "#1E1E1E"
+      "--back-color": "#FFFAFA",
+      "--font-color": "#1E1E1E",
+      "--button-color": "#B5B8B1",
+      "--btn-fcolor": "#1E1E1E"
   },
   "dark": {
     "--back-color": "#2d2d2d",
@@ -33,12 +33,22 @@ const themeContainer = {
   }
 };
 
+function themesBackgroundChange() {
+  let changeThemeBack = document.getElementById('themes');
+
+  if(changeThemeBack.classList.contains('active')) {
+    changeThemeBack.classList.remove('active');
+  }else{
+    changeThemeBack.classList.add('active');
+  }
+}
+
 function applyTheme(name) {
   const chosenTheme = themeContainer[name];
   const changeElement = document.documentElement;
 
   for (let key in chosenTheme) {
-   changeElement.style.setProperty(key, chosenTheme[key]);
+    changeElement.style.setProperty(key, chosenTheme[key]);
   }
 
   localStorage.setItem('saveTheme', name);

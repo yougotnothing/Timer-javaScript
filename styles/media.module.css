@@ -1,0 +1,86 @@
+@media (max-width: 1480px) and (min-width: 1241px) {
+    .timer {
+        font-size: 140px;
+        width: 840px;
+        height: 180px;
+        margin: 40px;
+    }
+    .themes {
+        display: block;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .buttons {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 1240px) and (min-width: 861px) {
+    .timer {
+        font-size: 100px;
+        width: 640px;
+        height: 125px;
+        margin: 25px;
+    }
+    .themes {
+        display: block;
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+
+    .buttons {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 860px) and (min-width: 481px) {
+    .timer {
+        font-size: 85px;
+        width: 480px;
+        height: 100px;
+        margin: 40px;
+        padding: 10px;
+    }
+
+    .themesContainer {
+        height: 60px;
+        padding-left: 10px;
+    }
+
+    .buttons {
+        margin-top: 20px;
+    }
+
+    .startButton,
+    .pauseButton,
+    .resetButton {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .timer {
+        display: inline-flex;
+        font-size: 65px;
+        width: 320px;
+        height: 80px;
+        margin: 10px;
+        padding: 5px;
+    }
+    .themes {
+        display: block;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    
+    .buttons {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .startButton,
+    .pauseButton,
+    .resetButton {
+        margin: 35px;
+    }
+}

@@ -1,0 +1,51 @@
+.buttons {
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.startButton,
+.resetButton,
+.pauseButton {
+    text-decoration: none;
+    border: none;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    margin: 30px 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: var(--btn-fcolor);
+    background: var(--button-color);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.startButton:hover {
+    background: #43e52e;
+    box-shadow: 0 15px 20px rgba(46, 229, 49, 0.4);
+    color: rgb(72, 72, 72);
+    text-align: center;
+    transform: translateY(-7px);
+}
+
+.pauseButton:hover {
+    background: #e52e2e;
+    box-shadow: 0 15px 20px rgba(229, 46, 46, 0.4);
+    color: rgb(72, 72, 72);
+    text-align: center;
+    transform: translateY(-7px);
+}
+
+.resetButton:hover {
+    background: #2e90e5;
+    box-shadow: 0 15px 20px rgba(46, 116, 229, 0.4);
+    color: rgb(72, 72, 72);
+    text-align: center;
+    transform: translateY(-7px);
+}

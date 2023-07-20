@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="public/clock@3x.png" type="image/x-icon">
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/buttons.module.css">
+    <link rel="stylesheet" href="/styles/fonts.module.css">
+    <link rel="stylesheet" href="/styles/media.module.css">
+    <link rel="stylesheet" href="/styles/themes.module.css">
     <title>Timer with JS</title>
 </head>
 <body>
@@ -16,13 +20,15 @@
         <option value="green" id="greenTheme" class="greenTheme">Green</option>
         <option value="violet" id="violetTheme" class="violetTheme">Violet</option>
     </select>
-    <div id="time" class="timer">00:00.00</div>
-    <div class="buttons">
-        <button id="startButton" class="startButton">start</button>
-        <button id="resetButton" class="resetButton">reset</button>
-        <button id="pauseButton" class="pauseButton">stop</button>
+    <div class="container">
+        <div id="time" class="timer">00:00.00</div>
+        <div class="buttons">
+            <button id="startButton" class="startButton">start</button>
+            <button id="resetButton" class="resetButton">reset</button>
+            <button id="pauseButton" class="pauseButton">stop</button>
+        </div>
     </div>
-    <script src="/js/mainTimer.js"></script>
-    <script src="/js/themes.js"></script>
+    <script src="/javaScript/mainTimer.js"></script>
+    <script src="/javaScript/themes.js"></script>
 </body>
 </html>
